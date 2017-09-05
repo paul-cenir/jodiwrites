@@ -258,6 +258,9 @@ header .navbar-collapse.show ul li a:hover {
 	.color-lighted {
 		color:#90e0c3;
 	}
+	.color-lighted-not {
+		color:#333333;
+	}
 	.quote {
 		line-height: 1.67;
 	}
@@ -319,6 +322,7 @@ header .navbar-collapse.show ul li a:hover {
 	.custom-hover:hover {
 		background: #90e0c3 ;
 		cursor: pointer;
+		color:#333333;
 	}
 	.custom-full-bg {
 		background: #DFDFE1;
