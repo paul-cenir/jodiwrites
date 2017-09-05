@@ -98,6 +98,11 @@ header .banner h1 {
 	width: 80%;
 }
 
+.header-3 .banner {
+	background: url(../img/img1.png) no-repeat center center / cover;
+	height: 400px;
+}
+
 .social-icons [class*="fa fa-"] {
     background-color: #90E0C3;
     border-radius: 30px;
