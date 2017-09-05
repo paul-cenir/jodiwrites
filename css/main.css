@@ -86,12 +86,27 @@ header .navbar-collapse.show {
     display: flex;
     align-items: center;
     justify-content: center;
+    overflow-y: scroll;
 }
 
 header .navbar-collapse.show ul {
 	width: 300px;
 	margin: 0px auto;
 	text-align: center;
+}
+
+header .navbar-collapse.show ul li {
+	line-height: 72px;
+}
+
+header .navbar-collapse.show ul li a {
+	color: #000 !important;
+	font-family: 'Times New Roman', Assistant;
+	font-size: 35px;
+}
+
+header .navbar-collapse.show ul li a:hover {
+	color: tomato !important;
 }
 
 .header-1 .banner {
@@ -175,6 +190,10 @@ header .navbar-collapse.show ul {
     text-decoration: none;
 }
 
+.follow-us-div .social-icons {
+	margin: 0px auto;
+}
+
 .footer {
 	color: #B6B6B7;
 	padding: 50px 0px;
@@ -185,7 +204,22 @@ header .navbar-collapse.show ul {
 	margin: auto;
 }
 
+@media (max-width: 767px) {
+	header .tagline .hamburger {
+		top: 0px;
+		left: 0px;
+		right: 0px;
+	}
 
+	header .navbar-toggler {
+		margin: 0px auto;
+	}
+
+	header .navbar-collapse.show {
+		padding: 50px 0px;
+		display: block;
+	}
+}
 
 
 
