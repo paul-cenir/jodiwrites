@@ -55,6 +55,12 @@ header .navbar-toggler {
 
 header .navbar-toggler > .close {
     display: inline;
+    margin-left: 5px;
+}
+
+header .navbar-toggler > .close img {
+    height: 20px;
+    width: 20px;
 }
 
 header .navbar-toggler.collapsed > .close,
