@@ -4,28 +4,26 @@ body {
 	font-weight: 500;
 }
 
-.header {
+header {
 	position: relative;
 	color: #B6B6B7;
 }
 
-.header .tagline {
+header .tagline {
 	height: 100px;
 	padding: 50px 0px 80px;
 }
 
-.header .tagline span {
+header .tagline span {
 	color: #90E0C3;
 }
 
-.header .banner {
-	background-image: url(../img/bg.png);
+header .banner {
 	background-color: white;
-	height: 400px;
 	position: relative;
 }
 
-.header .banner h1 {
+header .banner h1 {
 	text-transform: uppercase;
 	font-weight: 600;
 	letter-spacing: 7px;
@@ -38,14 +36,12 @@ body {
 	color: #000;
 }
 
-.header .banner-content {
-	height: inherit;
+.header-1 .banner {
+	background-image: url(../img/bg.png);
+	height: 400px;
 }
 
-.header .banner .content-right {
-}
-
-.header .profile {
+.header-1 .profile {
 	bottom: -115px;
     left: 0px;
     right: 0px;
@@ -53,20 +49,53 @@ body {
     position: absolute;
 }
 
-.header .profile img {
+.header-1 .profile img {
 	width: 80%;
 }
 
-.header .inline-profile {
+.header-1 .inline-profile {
 	margin-left: 210px;
 }
 
-.header .social-icons {
+.header-1 .social-icons {
 	display: inline-block;
 }
 
-.header .social-icons ul {
+.header-1 .social-icons ul {
 	margin-bottom: 0px !important;
+}
+
+.header-2 .banner {
+	height: 500px;
+}
+
+.header-2 .banner-content {
+	height: inherit;
+	padding-top: 10px;
+}
+
+.header-2 .book-title {
+	font-weight: 600;
+	letter-spacing: 5px;
+	color: #000;
+}
+
+.header-2 .book-author {
+	font-weight: 200;
+	letter-spacing: 5px;
+	color: #B6B6B7;
+	text-transform: uppercase;
+}
+
+.header-2 .book-author {
+	font-weight: 200;
+	letter-spacing: 5px;
+	color: #B6B6B7;
+	text-transform: uppercase;
+}
+
+.header-2 .content-right img {
+	width: 80%;
 }
 
 .social-icons [class*="fa fa-"] {
@@ -86,4 +115,9 @@ body {
 .footer {
 	color: #B6B6B7;
 	padding: 50px 0px;
+}
+
+.custom-width-of-global {
+	max-width: 640px;
+	margin: auto;
 }
