@@ -86,7 +86,7 @@ header .navbar-collapse.show {
     display: flex;
     align-items: center;
     justify-content: center;
-    overflow-y: scroll;
+    overflow-y: hidden;
 }
 
 header .navbar-collapse.show ul {
@@ -101,12 +101,12 @@ header .navbar-collapse.show ul li {
 
 header .navbar-collapse.show ul li a {
 	color: #000 !important;
-	font-family: 'Times New Roman', Assistant;
+	font-family: 'Assistant', Assistant;
 	font-size: 35px;
 }
 
 header .navbar-collapse.show ul li a:hover {
-	color: tomato !important;
+	color: #90e0c3 !important;
 }
 
 .header-1 .banner {
@@ -273,8 +273,14 @@ header .navbar-collapse.show ul li a:hover {
 	}
 
 
+
+
 	.mt-6 {
 		margin-top: 10rem!important;
+	}
+
+	.mt-7 {
+		margin-top: 7rem!important;
 	}
 
 	h1 {
