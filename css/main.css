@@ -12,10 +12,17 @@ header {
 header .tagline {
 	height: 100px;
 	padding: 50px 0px 80px;
+	position: relative;
 }
 
-header .tagline span {
+header .tagline p span {
 	color: #90E0C3;
+}
+
+header .tagline .hamburger {
+	position: absolute;
+	left: 100px;
+	top: 30px;
 }
 
 header .banner {
@@ -34,6 +41,51 @@ header .banner h1 {
 	top: -20px;
 	text-align: center;
 	color: #000;
+}
+
+header .navbar-toggler:hover,
+header .navbar-toggler:focus,
+header .navbar-toggler:active,
+header .navbar-toggler {
+	border: none;
+	outline: none;
+	z-index: 999;
+    cursor: pointer;
+}
+
+header .navbar-toggler > .close {
+    display: inline;
+}
+
+header .navbar-toggler.collapsed > .close,
+header .navbar-toggler:not(.collapsed) > .navbar-toggler-icon {
+    display: none;
+}
+
+header .navbar-collapse.collapsing {
+	opacity: 0;
+}
+
+header .navbar-collapse.show {
+	opacity: 1;
+	transition: opacity .1s ease-in;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: white;
+    width: 100%;
+    height: 100%;
+    z-index: 9;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header .navbar-collapse.show ul {
+	width: 300px;
+	margin: 0px auto;
+	text-align: center;
 }
 
 .header-1 .banner {
