@@ -168,7 +168,7 @@ header .navbar-collapse.show ul li a:hover {
 }
 
 .header-2 .content-right img {
-	width: 80%;
+	width: 100%;
 }
 
 .header-3 .banner {
@@ -253,8 +253,27 @@ header .navbar-collapse.show ul li a:hover {
 
 
 /*--------------------------------------------------START HERE---------------------------------------------------------- */
-
-
+	.h36 {
+		font-size: 36px !important;
+	}
+	.h34 {
+		font-size: 36px !important;
+	}
+	.h48 {
+		font-size: 48px !important;
+	}
+	.h21 {
+		font-size: 21px !important;
+	}
+	.h14 {
+		font-size: 14px !important;
+	}
+	.font-weight-bold {
+		font-weight: 600;
+	}
+	.w-no-wrap {
+		white-space: nowrap;
+	}
 	.color-lighted {
 		color:#90e0c3;
 	}
@@ -262,7 +281,7 @@ header .navbar-collapse.show ul li a:hover {
 		color:#333333;
 	}
 	.quote {
-		line-height: 1.67;
+		line-height: 1.27;
 	}
 	.Jodi {
 
@@ -322,7 +341,8 @@ header .navbar-collapse.show ul li a:hover {
 		margin-bottom: 2rem;
 	}
 	.blockquote p {
-		line-height: 1.52;
+	    line-height: 1.52;
+	    font-size: 21px;
 	}
 
 	.custom-hover:hover {
