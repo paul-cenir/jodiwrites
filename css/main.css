@@ -433,6 +433,17 @@ header .navbar-collapse.show ul li a:hover {
 		color: #000000;
 
 	}
+
+	.h1-title {
+	    text-transform: uppercase;
+	    font-weight: 600;
+	    letter-spacing: 7px;
+	    color: #000000;
+	}
+
+	.line-height-21 {
+		line-height: 21px;
+	}
 	.mt-quote {
 	    margin-top: 7px;
 	}
