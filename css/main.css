@@ -448,6 +448,14 @@ header .navbar-collapse.show ul li a:hover {
 	    margin-top: 7px;
 	}
 
+	.lh-14 {
+	    line-height: 14px;
+	}
+
+	.f24 {
+		font-size: 24px;
+	}
+
 	::-webkit-input-placeholder { /* WebKit, Blink, Edge */
 
 		font-size: 24px !important;
